@@ -1,0 +1,145 @@
+/* Reset og border-box á allt */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Leturgerðir */
+
+/** Hér skal skilgreina leturgerðir **/
+
+/* Stillingar */
+
+:root {
+  /* Grunn bilið okkar er 1rem == 16px */
+  --font-base-body-px: 16px;
+  --spacing: 1rem;
+
+  /* Hámarksbreidd á efni */
+  --max-width: 900px;
+
+  /* Border breiddir */
+  --border-small: 1px;
+  --border-large: 8px;
+  --border-radius: 6px;
+
+  /* Litir */
+  --color-gold: #ffe7ae;
+  --color-gold-light: #fff1cf;
+  --color-dark: #2f0505;
+  --color-light: #fff9ee;
+
+  /* Letur stillingar */
+  --font-base-size: 1rem;
+  --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Lora', Georgia, serif;
+}
+
+/* Almennt */
+
+/** Skilgreininar sem gilda fyrir allt efni og nota type selectora **/
+
+html,
+input,
+select,
+button {
+}
+
+h1,
+h2,
+h3 {
+}
+
+a {
+  color: inherit;
+  background-color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/** Hjálpar class sem felur sjónrænt en skjálesarar lesa **/
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Layout */
+
+.wrapper {
+  /** Þessi selector er utanum allt og ætti að stýra plássi á milli efnis **/
+}
+
+/** Haus **/
+
+.header {
+}
+
+.header header {
+}
+
+/** Valmynd **/
+
+.navigation {
+}
+
+.navigation ul {
+}
+
+/** Meginmál **/
+
+.main {
+}
+
+/** Fótur **/
+
+.footer {
+}
+
+.footer ul {
+  list-style: none;
+}
+
+/* Box! */
+
+.boxes {
+}
+
+.boxes .box {
+}
+
+/** Og fleiri selectorar... **/
+
+/* Opnunartími */
+
+/**
+Hér eru skilgreiningar sem endurnýta má úr v3, með takmörkunum.
+**/
+
+/* Matseðill */
+
+/**
+Hér eru skilgreiningar sem endurnýta má úr v3, með takmörkunum.
+**/
+
+/* Pöntunarform */
+
+/**
+Hér eru skilgreiningar sem endurnýta má úr v3, með takmörkunum.
+**/
