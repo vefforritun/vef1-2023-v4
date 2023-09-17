@@ -1,4 +1,4 @@
-# Vefforritun 1, 2022: Verkefni 4, CSS #2
+# Vefforritun 1, 2023: Verkefni 4, CSS #2
 
 [Kynning í fyrirlestri](https://youtu.be/uiIyHNxgalo).
 
